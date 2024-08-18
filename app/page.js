@@ -1,20 +1,13 @@
 'use client';
 import Image from "next/image";
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function Home() {
   const parallaxRef = useRef(null);
-  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      if (offset > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-
       const parallax = parallaxRef.current;
       if (parallax) {
         parallax.style.transform = `translateY(${offset * 0.5}px)`;
@@ -30,18 +23,6 @@ export default function Home() {
 
   return (
     <main className="relative">
-      <nav className={`fixed top-0 left-0 right-0 flex justify-between z-20 p-4 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md" : "bg-transparent"
-      }`}>
-        <h3 className={scrolled ? "text-gray-800" : "text-[#dad9d7]"}>Magic Wood Work</h3>
-        <ul className="flex space-x-4">
-          <li><a href="#" className={`${scrolled ? "text-[#9c8e80]" : "text-[#9c8e80]"}`}>Home</a></li>
-          <li><a href="#" className={`${scrolled ? "text-gray-800 hover:text-[#9c8e80]" : "text-white hover:text-[#9c8e80]"}`}>About</a></li>
-          <li><a href="#" className={`${scrolled ? "text-gray-800 hover:text-[#9c8e80]" : "text-white hover:text-[#9c8e80]"}`}>Services</a></li>
-          <li><a href="#" className={`${scrolled ? "text-gray-800 hover:text-[#9c8e80]" : "text-white hover:text-[#9c8e80]"}`}>Contact</a></li>
-        </ul>
-      </nav>
-
       <div className="relative h-screen overflow-hidden">
         <div ref={parallaxRef} className="absolute inset-0 bg-black" style={{ height: '120%', top: '-10%' }}>
           <Image
@@ -58,12 +39,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-screen">
-       
+      <div className="h-screen">  
         <section className="grid grid-cols-2">
           <div className="">
             <Image
-              src="/img/workers1.webp"
+              src="/img/services.webp"
               layout="responsive"
               width={600}
               height={400}
@@ -72,10 +52,8 @@ export default function Home() {
             />
           </div>
           <div>
-
           </div>
         </section>
-
       </div>
     </main>
   );

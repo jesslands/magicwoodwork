@@ -29,16 +29,15 @@ export default function Services() {
                     <img className="border border-2 border-[#9a8a78]" src="https://static.wixstatic.com/media/ea26fd_167e5a9e…b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg" alt="services" />
 
                 </div>
-                <h3>Home Interior Design:</h3>
+               
+                <div className="border border-2 border-[#9a8a78] p-5">
+                <h3>Home Interior Design</h3>
                 <p>
-                Our team of experts also specializes in home interior design. We understand that every home is unique, and we work closely with our customers to create a design that reflects their style and personality. From choosing the right colors to selecting the perfect furniture, we will transform your home into a beautiful and functional space that you will love.
-                </p>
-
-                <div>
-
+                    Our team of experts also specializes in home interior design. We understand that every home is unique, and we work closely with our customers to create a design that reflects their style and personality. From choosing the right colors to selecting the perfect furniture, we will transform your home into a beautiful and functional space that you will love.</p>
                 </div>
-
-                <div>
+                <div className="border border-2 border-[#9a8a78] p-5">
+                <h3>Bathroom Remodeling</h3>
+                <p>Our bathroom remodeling services include custom design and installation of bathroom vanities, cabinets, and showers. We work closely with our customers to create a design that fits their style and needs, ensuring that every detail is perfect. Trust us to deliver exceptional quality work and make your bathroom a beautiful and functional space.</p>
 
                 </div>
             </section>

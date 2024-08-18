@@ -26,7 +26,7 @@ export default function Services() {
 
             <section className="grid grid-cols-3 gap-5 mt-12 w-[90%] mx-auto">
                 <div>
-                    <img className="border border-2 border-[#9a8a78]" src="https://static.wixstatic.com/media/ea26fd_167e5a9e…b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg" alt="services" />
+                    <img className="border border-2 border-[#9a8a78]" src="https://static.wixstatic.com/media/ea26fd_167e5a9e6b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg/v1/fill/w_405,h_788,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea26fd_167e5a9e6b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg" alt="services" />
 
                 </div>
                
@@ -41,6 +41,29 @@ export default function Services() {
 
                 </div>
             </section>
+
+        <secton className="grid grid-cols-4 gap-5 mt-12 w-[90%] mx-auto">
+            <div  className="border border-2 border-[#9a8a78] p-5"> 
+                <h3>Our Expertise</h3>
+                
+
+            </div>
+            <div  className="border border-2 border-[#9a8a78] p-5">
+                <h3>Custom Design</h3>
+                <p>At Magic Wood Work, we offer custom design services to ensure that your project is unique and reflects the customer's style and personality. Our team of experts will work closely with you to create a design that exceeds your expectations.</p>
+            </div>
+            <div  className="border border-2 border-[#9a8a78] p-5">
+            <h3>Quality Workmanship</h3>
+            <p>We are committed to delivering the highest quality workmanship in every project we undertake. Our team of experts has many years of experience in the market, ensuring that every project is completed with exceptional craftsmanship.</p>
+            </div>
+            <div  className="border border-2 border-[#9a8a78] p-5">
+            <h3>Customer Satisfaction</h3>
+            <p>At Magic Wood Work, we value building trust with our customers by always delivering the best quality work. We are committed to providing excellent service and ensuring customer satisfaction. Trust us to make your dreams come true through our exceptional craftsmanship.</p>
+
+            </div>
+        </secton>
+
+        
 
 
         </main>

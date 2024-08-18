@@ -58,10 +58,24 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Añade más contenido aquí para poder hacer scroll */}
-      <div className="h-screen bg-gray-100">
-        <h2 className="text-4xl font-bold text-center pt-20">About Us</h2>
-        {/* Más contenido... */}
+      <div className="h-screen">
+       
+        <section className="grid grid-cols-2">
+          <div className="">
+            <Image
+              src="/img/workers1.webp"
+              layout="responsive"
+              width={600}
+              height={400}
+              className="object-cover"
+              alt="Services"
+            />
+          </div>
+          <div>
+
+          </div>
+        </section>
+
       </div>
     </main>
   );

@@ -12,6 +12,7 @@ const NavItems = [
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -24,26 +25,65 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 flex justify-between z-20 p-4 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
       scrolled ? "bg-[#272627] shadow-md" : "bg-transparent"
     }`}>
-      <h3 className={scrolled ? "text-white" : "text-[#dad9d7]"}>Magic Wood Work</h3>
-      <ul className="flex space-x-4">
-        {NavItems.map((item) => (
-          <li key={item.name}>
+      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <h3 className={`text-xl font-semibold ${scrolled ? "text-white" : "text-[#dad9d7]"}`}>
+          Magic Wood Work
+        </h3>
+        
+        {/* Desktop menu */}
+        <ul className="hidden sm:flex space-x-4">
+          {NavItems.map((item) => (
+            <li key={item.name}>
+              <Link 
+                href={item.href}
+                className={`
+                  ${scrolled ? "text-white" : "text-[#dad9d7]"}
+                  ${pathname === item.href ? "text-[#9a8a78]" : "hover:text-[#9a8a78]"}
+                  transition-colors duration-300
+                `}
+              >
+                {item.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        {/* Mobile menu button */}
+        <button 
+          className="sm:hidden bg-[#9a8a78] text-white px-3 py-1 rounded text-sm"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? 'Close' : 'Menu'}
+        </button>
+      </div>
+      
+      {/* Mobile menu dropdown */}
+      <div 
+        className={`
+          sm:hidden overflow-hidden transition-all duration-300 ease-in-out
+          ${isOpen ? 'max-h-64' : 'max-h-0'}
+          ${scrolled ? "bg-[#272627]" : "bg-black bg-opacity-70"}
+        `}
+      >
+        <div className="container mx-auto px-4 py-2">
+          {NavItems.map((item) => (
             <Link 
+              key={item.name}
               href={item.href}
               className={`
-                ${scrolled ? "text-white" : "text-white"}
-                ${pathname === item.href ? "text-[#735e4c]" : "hover:text-[#9c8e80]"}
-                transition-colors duration-300
+                block py-2 text-white
+                ${pathname === item.href ? "text-[#9a8a78]" : "hover:text-[#9a8a78]"}
               `}
+              onClick={() => setIsOpen(false)}
             >
               {item.name}
             </Link>
-          </li>
-        ))}
-      </ul>
+          ))}
+        </div>
+      </div>
     </nav>
   );
 }

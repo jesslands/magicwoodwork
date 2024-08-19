@@ -40,7 +40,7 @@ export default function Services() {
                 </div>
             </section>
 
-            <secton className="grid grid-cols-4 gap-5 mt-12 w-[90%] mx-auto">
+            <section className="grid grid-cols-4 gap-5 mt-12 w-[90%] mx-auto">
                 <div className="border border-2 border-[#9a8a78] p-5">
                     <h3 className="p-5 text-[35px] font-bold">Our Expertise</h3>
 
@@ -59,7 +59,7 @@ export default function Services() {
                     <p>At Magic Wood Work, we value building trust with our customers by always delivering the best quality work. We are committed to providing excellent service and ensuring customer satisfaction. Trust us to make your dreams come true through our exceptional craftsmanship.</p>
 
                 </div>
-            </secton>
+            </section>
 
             
 

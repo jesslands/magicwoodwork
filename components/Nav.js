@@ -35,7 +35,7 @@ export default function Nav() {
               href={item.href}
               className={`
                 ${scrolled ? "text-white" : "text-white"}
-                ${pathname === item.href ? "text-[#9a8a78]" : "hover:text-[#9c8e80]"}
+                ${pathname === item.href ? "text-[#735e4c]" : "hover:text-[#9c8e80]"}
                 transition-colors duration-300
               `}
             >

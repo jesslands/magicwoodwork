@@ -23,15 +23,10 @@ export default function Services() {
                     <img className="border border-2 border-[#9a8a78]" src="https://static.wixstatic.com/media/ea26fd_cef121ad11c14de98fb8f2f98d403157~mv2_d_6720_4480_s_4_2.jpg/v1/fill/w_380,h_918,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea26fd_cef121ad11c14de98fb8f2f98d403157~mv2_d_6720_4480_s_4_2.jpg" alt="services" />
                 </div>
             </section>
-
             <section className="grid grid-cols-3 gap-5 mt-12 w-[90%] mx-auto">
                 <div>
-<<<<<<< HEAD
-                    <img className="border border-2 border-[#9a8a78]" src="https://static.wixstatic.com/media/ea26fd_167e5a9e…b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg" alt="services" />
-=======
                     <img className="border border-2 border-[#9a8a78]" src="https://static.wixstatic.com/media/ea26fd_167e5a9e6b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg/v1/fill/w_405,h_788,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea26fd_167e5a9e6b9b4ceca28872ae871f689d~mv2_d_6720_4480_s_4_2.jpg" alt="services" />
 
->>>>>>> refs/remotes/origin/main
                 </div>
                
                 <div className="border border-2 border-[#9a8a78] p-5">

@@ -238,6 +238,15 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <section className="grid grid-cols-2">
+        <div>
+
+        </div>
+        <div>
+          
+        </div>
+      </section>
+      <div className="mb-52"></div>
     </main>
   );
 }

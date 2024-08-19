@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="mt-auto  bg-black text-white">
+    <footer className="mt-auto   text-white">
       <section className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 py-12 px-4">
         <div className="flex justify-center md:justify-start">
           <Image src="/imagenes/logo1.png" alt="Magic Wood Work" width={150} height={150} />
@@ -23,7 +23,7 @@ export default function Footer() {
 
         <div className="space-y-4">
           <div className="flex items-center">
-            <div className="bg-gray-700 p-2 rounded-full mr-3">
+            <div className=" p-2 rounded-full mr-3">
               <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M13 20v-5h-2v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-7.59l-.3.3a1 1 0 11-1.4-1.42l9-9a1 1 0 011.4 0l9 9a1 1 0 01-1.4 1.42l-.3-.3V20a2 2 0 01-2 2h-3a2 2 0 01-2-2zm5 0v-9.59l-6-6-6 6V20h3v-5c0-1.1.9-2 2-2h2a2 2 0 012 2v5h3z" />
               </svg>
@@ -31,7 +31,7 @@ export default function Footer() {
             <span>Bay Lake, FL, USA</span>
           </div>
           <div className="flex items-center">
-            <div className="bg-gray-700 p-2 rounded-full mr-3">
+            <div className=" p-2 rounded-full mr-3">
               <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6m-2 0l-8 5-8-5h16m0 12H4V8l8 5 8-5v10z" />
               </svg>
@@ -39,7 +39,7 @@ export default function Footer() {
             <span>Support@MagicWoodWorking.com</span>
           </div>
           <div className="flex items-center">
-            <div className="bg-gray-700 p-2 rounded-full mr-3">
+            <div className=" p-2 rounded-full mr-3">
               <svg className="w-6 h-6" viewBox="0 0 16 16" fill="currentColor">
                 <path d="M11 1a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V2a1 1 0 011-1h6zM5 0a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2H5z" />
                 <path d="M8 14a1 1 0 100-2 1 1 0 000 2z" />

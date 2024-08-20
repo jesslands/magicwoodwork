@@ -1,5 +1,15 @@
 import Image from "next/image";
 
+const Divider = () => (
+    <div className="my-8 flex items-center">
+      <div className="flex-grow border-t border-gray-300"></div>
+      <div className="flex-shrink mx-4">
+        <div className="w-4 h-4 bg-[#9a8a78] rotate-45"></div>
+      </div>
+      <div className="flex-grow border-t border-gray-300"></div>
+    </div>
+  );
+  
 export default function Services() {
     return (
         <main className="px-4 md:px-0 pt-8">

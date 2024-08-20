@@ -31,17 +31,16 @@ const images = [
   },
 ];
 
-export default function CustomKitchenRemodel() {
+export default function HandcraftedFurnitureDesign() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   
         return (
           <section className="text-white py-8 sm:py-12">
             <div className="container mx-auto px-4">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#9a8a78]">Custom Kitchen Remodel</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#9a8a78]"> Handcrafted Furniture Design</h2>
               <p className="mb-6 sm:mb-8 text-gray-300 text-sm sm:text-base">
-                At Magic Wood Work, we specialize in creating custom kitchens that are both functional and beautiful. Our team of skilled carpenters and woodworkers will work with you to design a kitchen that fits your specific needs and style preferences. From custom cabinets and countertops to unique lighting and flooring, we'll bring your vision to life.
-              </p>
+              In addition to our carpentry and renovation services, we also offer custom furniture design. Our skilled craftsmen will work with you to design and create one-of-a-kind pieces that are tailored to your specific needs and style preferences. From unique coffee tables and bookshelves to custom bed frames and dining tables, we'll bring your vision to life.             </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {images.map((img, index) => (
                   <div key={index} className="relative h-48 sm:h-64 overflow-hidden cursor-pointer rounded-lg" onClick={() => setSelectedImage(img)}>

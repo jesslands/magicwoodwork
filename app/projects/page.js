@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from 'next/link';
 import CustomKitchenRemodel from '/components/CustomKitchenRemodel'; // Asegúrate de que la ruta sea correcta
+import HandcraftedFurnitureDesign from '/components/HandcraftedFurnitureDesign';
+import LuxuryBathroomRenovation from '/components/LuxuryBathroomRenovation';
+
+
 
 const ProjectButton = ({ title, subtitle, href }) => (
     <Link href={href} className="group block w-full h-full">
@@ -52,6 +56,18 @@ export default function Projects() {
 
             {/* Componente CustomKitchenRemodel */}
             <CustomKitchenRemodel />
+            <Divider />
+
+            <Divider />
+
+            {/* Componente CustomKitchenRemodel */}
+            <LuxuryBathroomRenovation />
+            <Divider />
+
+            <Divider />
+
+            {/* Componente CustomKitchenRemodel */}
+            <HandcraftedFurnitureDesign />
             <Divider />
 
         </main>

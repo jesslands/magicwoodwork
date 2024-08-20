@@ -37,7 +37,7 @@ export default function Services() {
             </section>
 
             <section className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-8 w-full md:w-[90%] mx-auto">
-                <div className="w-full h-64 md:h-full relative">
+                <div className="w-full h-64 md:h-full relative lg:col-span-1">
                     <Image 
                         src="/imagenes/servicio2.jpg"
                         alt="services"

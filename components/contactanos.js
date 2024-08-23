@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
 
-const ContactSection = () => {
+const ContactSection = ({className}) => {
     return (
-        <section className="flex flex-col md:flex-row justify-center items-start gap-8 mt-8 w-full max-w-5xl mx-auto pb-20 px-4">
+        <section className={`flex flex-col md:flex-row justify-center items-start gap-8 mt-8 w-full max-w-5xl mx-auto pb-20 px-4 ${className}`}>
             {/* Formulario */}
             <div className="w-full md:w-1/2 max-w-md p-4 sm:p-6 rounded-lg shadow-lg">
                 <form className="space-y-4">

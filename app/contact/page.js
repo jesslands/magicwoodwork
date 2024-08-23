@@ -6,7 +6,7 @@ export default function Contact() {
             <h1 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-white">Contact Us</h1>
             <section className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8 w-full max-w-6xl mx-auto pb-20">
                 {/* Formulario */}
-                <div className="border border-[#9a8a78] lg:col-span-2 p-4 sm:p-6 rounded-lg shadow-lg">
+                <div className="lg:col-span-2 p-4 sm:p-6 rounded-lg shadow-lg">
                     <form className="space-y-4 sm:space-y-6">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                             <div>
@@ -76,7 +76,7 @@ export default function Contact() {
 
                 {/* Información de servicios e imagen */}
                 <div className="space-y-8">
-                    <div className="border border-[#9a8a78] text-white p-4 sm:p-6 rounded-lg shadow-lg">
+                    <div className=" text-white p-4 sm:p-6 rounded-lg shadow-lg">
                         <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-center">Our Services</h2>
                         <div className="space-y-4 sm:space-y-6">
                             {['Painting', 'Kitchen Remodeling', 'Home Renovation'].map((service, index) => (
@@ -92,7 +92,7 @@ export default function Contact() {
                             ))}
                         </div>
                     </div>
-                    <div className="border border-[#9a8a78] w-full h-48 sm:h-64 relative rounded-lg overflow-hidden">
+                    <div className=" w-full h-48 sm:h-64 relative rounded-lg overflow-hidden">
                         <Image 
                             src="/imagenes/servicio2.jpg"
                             alt="Magic Wood Work Service"

@@ -38,7 +38,7 @@ export default function Home() {
             alt="Banner"
           />
         </div>
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10">
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white z-10">
           <h1 className="text-6xl font-bold mb-4">Magic Wood Work</h1>
           <h2 className="text-2xl">
             Creating Your Dream Home with Our Expertise
@@ -47,7 +47,7 @@ export default function Home() {
       </div>
 
       <div className="h-screen">
-        <section className="grid grid-cols-2 mt-12 w-[90%] mx-auto border border-1 border-[#9a8a78]">
+        <section className="grid lg:grid-cols-2 mt-12 lg:w-[90%] mx-auto border border-1 border-[#9a8a78]">
           <div className="border border-r-1 border-[#9a8a78]">
             <img
               src="/img/workers1.webp"
@@ -59,22 +59,22 @@ export default function Home() {
             />
           </div>
           <div className="">
-            <div className=" text-white p-32 pt-24">
+            <div className=" text-white p-12 lg:p-32 lg:pt-24">
               <h2 className="text-xl font-bold mb-6">Our Services</h2>
 
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start">
-                  <span className=" mr-2">•</span>
-                  <p>
+                  <span className=" mr-2 ">•</span>
+                  <p className="font-thin lg:font-normal">
                   We provide an extensive range of carpentry and woodworking services to homeowners and individuals who want to enhance the appearance of their homes. Our services include:
                   </p>
                 </li>
               </ul>
 
-              <p className="mb-12"> Custom Millwork</p>
+              <p className="lg:mb-6 font-thin lg:font-normal"> <span className=" mr-2 lg:hidden">•</span>Custom Millwork</p>
 
-              <p className="mb-12">Custom High Quality Paint</p>
-              <p className="mb-12">Installation </p>
+              <p className="lg:mb-6 font-thin lg:font-normal"> <span className=" mr-2 lg:hidden">•</span>Custom High Quality Paint</p>
+              <p className="lg:mb-12 mb-12 font-thin lg:font-normal"> <span className=" mr-2 lg:hidden">•</span>Installation </p>
 
               <Link
                 href="/services"
@@ -86,9 +86,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-4 mb-12 w-[90%] mx-auto">
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-40">
-            <div className="flex flex-col items-center">
+        <section className="grid grid-cols-2 lg:grid-cols-4 mb-12 lg:w-[90%] mx-auto">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
+            <div className="flex flex-col items-center xy-12">
               <svg
                 preserveAspectRatio="xMidYMid meet"
                 data-bbox="20.005 16.396 160 167.324"
@@ -113,10 +113,10 @@ export default function Home() {
                   />
                 </g>
               </svg>
-              <span className="font-light mt-4">Why Choose Magic Wood Work?</span>
+              <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">Why Choose Magic Wood Work?</span>
             </div>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-40">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
             <svg
               data-bbox="20 20 160 160"
               viewBox="20 20 160 160"
@@ -156,9 +156,9 @@ export default function Home() {
               </g>
             </svg>
 
-            <span className="font-light mt-4">Expert Craftsmanship</span>
+            <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">Expert Craftsmanship</span>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-40">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
             <svg
               data-bbox="20 20 160 160"
               viewBox="20 20 160 160"
@@ -177,9 +177,9 @@ export default function Home() {
                 />
               </g>
             </svg>
-            <span className="font-light mt-4">Attention to Detail</span>
+            <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">Attention to Detail</span>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-40">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
             <svg
               preserveAspectRatio="xMidYMid meet"
               data-bbox="20 23.185 160 153.629"
@@ -232,7 +232,7 @@ export default function Home() {
                 />
               </g>
             </svg>
-            <span className="font-light mt-4">Customer Satisfaction</span>
+            <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">Customer Satisfaction</span>
           </div>
         </section>
       </div>
@@ -244,7 +244,11 @@ export default function Home() {
           
         </div>
       </section>
-      <div className="mb-52"></div>
+      <div className="mb-80 py-2"></div>
+      <div className="mb-80 py-2"></div>
+      <div className="mb-80 py-2"></div>
+
+      
     </main>
   );
 }

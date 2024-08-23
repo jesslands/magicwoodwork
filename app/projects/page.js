@@ -52,23 +52,23 @@ export default function Projects() {
                     />
                 </div>
             </section>
-            <Divider />
+          
 
             {/* Componente CustomKitchenRemodel */}
             <CustomKitchenRemodel />
-            <Divider />
+        
 
-            <Divider />
+      
 
             {/* Componente CustomKitchenRemodel */}
             <LuxuryBathroomRenovation />
-            <Divider />
+    
 
-            <Divider />
+   
 
             {/* Componente CustomKitchenRemodel */}
             <HandcraftedFurnitureDesign />
-            <Divider />
+    
 
         </main>
     );

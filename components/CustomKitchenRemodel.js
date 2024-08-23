@@ -40,7 +40,7 @@ export default function CustomKitchenRemodel() {
             <div className="container mx-auto px-4">
               <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#9a8a78]">Custom Kitchen Remodel</h2>
               <p className="mb-6 sm:mb-8 text-gray-300 text-sm sm:text-base">
-                At Magic Wood Work, we specialize in creating custom kitchens that are both functional and beautiful. Our team of skilled carpenters and woodworkers will work with you to design a kitchen that fits your specific needs and style preferences. From custom cabinets and countertops to unique lighting and flooring, we'll bring your vision to life.
+               
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {images.map((img, index) => (

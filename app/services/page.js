@@ -1,14 +1,7 @@
 import Image from "next/image";
+import ContactSection from '/components/contactanos';
 
-const Divider = () => (
-    <div className="my-8 flex items-center">
-        <div className="flex-grow border-t border-gray-300"></div>
-        <div className="flex-shrink mx-4">
-            <div className="w-4 h-4 bg-[#9a8a78] rotate-45"></div>
-        </div>
-        <div className="flex-grow border-t border-gray-300"></div>
-    </div>
-);
+
 
 export default function Services() {
     return (
@@ -80,7 +73,9 @@ export default function Services() {
                     Customer Satisfaction</h3>
                     <p className="text-justify  text-gray-300 ">At Magic Wood Work, we value building trust with our customers and always delivering the best quality work. We are committed to providing excellent service and ensuring customer satisfaction. Trust us to make your dreams come true through our exceptional craftsmanship.</p>
                 </div>
+               
             </section>
+            <ContactSection />
 
         </main>
     );

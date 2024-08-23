@@ -66,17 +66,15 @@ export default function Home() {
                 <li className="flex items-start">
                   <span className=" mr-2">•</span>
                   <p>
-                    We provide an extensive range of carpentry and woodworking
-                    services to homeowners and individuals who want to enhance
-                    the appearance of their homes. Our services include: Custom
-                    furniture design and creation
+                  We provide an extensive range of carpentry and woodworking services to homeowners and individuals who want to enhance the appearance of their homes. Our services include:
                   </p>
                 </li>
               </ul>
 
-              <p className="mb-5"> Custom cabinetry design and installation</p>
+              <p className="mb-12"> Custom Millwork</p>
 
-              <p className="mb-12">Trim work and molding installation</p>
+              <p className="mb-12">Custom High Quality Paint</p>
+              <p className="mb-12">Installation </p>
 
               <Link
                 href="/services"

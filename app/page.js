@@ -8,6 +8,7 @@ import IconHouse from "@/components/icons/House";
 import IconLaw from "@/components/icons/Law";
 import IconPuzzle from "@/components/icons/Puzzle";
 import IconWall from "@/components/icons/Wall";
+import Contactanos from "@/components/contactanos";
 export default function Home() {
   const parallaxRef = useRef(null);
 
@@ -153,18 +154,23 @@ export default function Home() {
         </section>
 
 
-            <h1 className="text-center mt-32 text-5xl mb-12">
+            <h1 className="text-center mt-32 text-3xl lg:text-5xl mb-12">
             Our Projects
             </h1>
 
 
       <Gallery/>
 
+      <h1 className="text-center mt-32 text-3xl mb-12">
+            Contact us
+            </h1>
 
+      <Contactanos className="mt-12" / >
       </div>
       <div className="mb-80 py-96"></div>
       <div className="mb-80 py-96"></div>
-      <div className="mb-80 py-72 lg:py-20"></div>
+      <div className="mb-80 py-96"></div>
+      <div className="py-72 lg:py-0"></div>
     </main>
   );
 }

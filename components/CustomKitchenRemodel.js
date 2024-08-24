@@ -5,27 +5,27 @@ import Image from 'next/image';
 
 const images = [
   { 
-    src: '/imagenes/cocina/01.jpg', 
+    src: '/imagenes/cocinas/01.jpg', 
     alt: 'Kitchen cabinet and shelving',
     description: 'Custom-built kitchen cabinets with open shelving, providing both storage and display space. The warm wood tones contrast beautifully with the white cabinetry.'
   },
   { 
-    src: '/imagenes/cocina/02.jpg', 
+    src: '/imagenes/cocinas/02.jpg', 
     alt: 'Modern kitchen with island',
     description: 'A sleek, modern kitchen featuring a large island with seating. The stainless steel appliances and pendant lights add a contemporary touch to the space.'
   },
   { 
-    src: '/imagenes/cocina/03.jpg', 
+    src: '/imagenes/cocinas/06.jpg', 
     alt: 'The Nelson\'s Project bathroom',
     description: 'The Nelson\'s Project showcases a luxurious bathroom renovation with marble tiles, a spacious shower, and elegant fixtures.'
   },
   { 
-    src: '/imagenes/cocina/04.jpg', 
+    src: '/imagenes/cocinas/04.jpg', 
     alt: 'Marble bathroom with large mirror',
     description: 'A stunning bathroom featuring marble walls and floors, complemented by a large, statement mirror and modern lighting fixtures.'
   },
   { 
-    src: '/imagenes/cocina/05.jpg', 
+    src: '/imagenes/cocinas/05.jpg', 
     alt: 'White kitchen with wooden floor',
     description: 'This bright, airy kitchen combines white cabinetry with warm wooden floors. The large windows allow plenty of natural light, creating an inviting cooking space.'
   },

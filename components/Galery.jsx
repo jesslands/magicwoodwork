@@ -20,7 +20,7 @@ const Gallery = () => {
     { id: 2, name: "Modern Kitchen Design", image: "/imagenes/oficinas/IMG_0889.jpg" },
     { id: 3, name: "Spacious Living Room", image: "/imagenes/oficinas/IMG_3309.jpg" },
     { id: 4, name: "Spacious Living Room", image: "/imagenes/oficinas/IMG_3311.jpg" },
-    { id: 5, name: "Spacious Living Room", image: "/imagenes/oficinas/IMG_7093.jpg" }
+    { id: 5, name: "Spacious Living Room", image: "/imagenes/oficinas/01.jpg" }
     // Añade más proyectos según sea necesario
   ];
 

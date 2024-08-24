@@ -66,7 +66,11 @@ export default function Footer() {
         </div>
         <div className="mt-8 text-center text-sm">
           <p>© 2024 by Magic Wood Work. All rights reserved.</p>
-          <p className="text-xs text-gray-400 mt-1"></p>
+          <p className="text-xs text-gray-400 mt-1">
+
+            253*+
+            3
+          </p>
         </div>
       </div>
     </footer>

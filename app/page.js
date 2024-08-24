@@ -164,12 +164,15 @@ export default function Home() {
           Contact us
         </h1>
 
-        <Contactanos className="mt-12" />
+        
       </div>
       <div className="mb-80 py-96"></div>
       <div className="mb-80 py-96"></div>
       <div className="mb-80 py-96"></div>
       <div className="py-72 lg:py-0"></div>
+
+      <Contactanos className="mt-12" />
+
     </main>
   );
 }

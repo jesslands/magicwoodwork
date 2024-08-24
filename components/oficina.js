@@ -5,43 +5,42 @@ import Image from 'next/image';
 
 const images = [
   { 
-    src: '/imagenes/cocina/01.jpg', 
+    src: '/imagenes/componentecocina/im1.jpg', 
     alt: 'Kitchen cabinet and shelving',
     description: 'Custom-built kitchen cabinets with open shelving, providing both storage and display space. The warm wood tones contrast beautifully with the white cabinetry.'
   },
   { 
-    src: '/imagenes/cocina/02.jpg', 
+    src: '/imagenes/componentecocina/im2.jpg', 
     alt: 'Modern kitchen with island',
     description: 'A sleek, modern kitchen featuring a large island with seating. The stainless steel appliances and pendant lights add a contemporary touch to the space.'
   },
   { 
-    src: '/imagenes/cocina/03.jpg', 
+    src: '/imagenes/componentecocina/im3.jpg', 
     alt: 'The Nelson\'s Project bathroom',
     description: 'The Nelson\'s Project showcases a luxurious bathroom renovation with marble tiles, a spacious shower, and elegant fixtures.'
   },
   { 
-    src: '/imagenes/cocina/04.jpg', 
+    src: '/imagenes/componentecocina/im4.jpg', 
     alt: 'Marble bathroom with large mirror',
     description: 'A stunning bathroom featuring marble walls and floors, complemented by a large, statement mirror and modern lighting fixtures.'
   },
   { 
-    src: '/imagenes/cocina/05.jpg', 
+    src: '/imagenes/componentecocina/im5.jpg', 
     alt: 'White kitchen with wooden floor',
     description: 'This bright, airy kitchen combines white cabinetry with warm wooden floors. The large windows allow plenty of natural light, creating an inviting cooking space.'
   },
 ];
 
-export default function CustomKitchenRemodel() {
+export default function oficina() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   
         return (
           <section className="text-white py-8 sm:py-12">
             <div className="container mx-auto px-4">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#9a8a78]">Custom Kitchen Remodel</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#9a8a78]"> Luxury Bathroom Renovation</h2>
               <p className="mb-6 sm:mb-8 text-gray-300 text-sm sm:text-base">
-               
-              </p>
+                      </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {images.map((img, index) => (
                   <div key={index} className="relative h-48 sm:h-64 overflow-hidden cursor-pointer rounded-lg" onClick={() => setSelectedImage(img)}>

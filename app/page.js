@@ -37,7 +37,7 @@ export default function Home() {
           style={{ height: "120%", top: "-10%" }}
         >
           <Image
-            src="/img/banner.webp"
+            src="/imagenes/cocinas/home2.jpg"
             layout="fill"
             objectFit="cover"
             className="opacity-55"

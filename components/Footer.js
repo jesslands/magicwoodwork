@@ -39,20 +39,20 @@ export default function Footer() {
               <svg className="w-6 h-6 mr-3 text-[#9a8a78]" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M13 20v-5h-2v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-7.59l-.3.3a1 1 0 11-1.4-1.42l9-9a1 1 0 011.4 0l9 9a1 1 0 01-1.4 1.42l-.3-.3V20a2 2 0 01-2 2h-3a2 2 0 01-2-2zm5 0v-9.59l-6-6-6 6V20h3v-5c0-1.1.9-2 2-2h2a2 2 0 012 2v5h3z" />
               </svg>
-              <span>Bay Lake, FL, USA</span>
+              <span>95 E 20th St Peterson, New Jersey</span>
             </div>
             <div className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 mr-3 text-[#9a8a78]" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6m-2 0l-8 5-8-5h16m0 12H4V8l8 5 8-5v10z" />
               </svg>
-              <span>Support@MagicWoodWorking.com</span>
+              <span>magiccwoodwork@gmail.com</span>
             </div>
             <div className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 mr-3 text-[#9a8a78]" viewBox="0 0 16 16" fill="currentColor">
                 <path d="M11 1a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V2a1 1 0 011-1h6zM5 0a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2H5z" />
                 <path d="M8 14a1 1 0 100-2 1 1 0 000 2z" />
               </svg>
-              <span>+1 (123) 456 7890</span>
+              <span>+1 551 799 4212</span>
             </div>
             <div className="flex items-center justify-center md:justify-start mt-4">
               <a href="https://www.instagram.com/magicwoodwork" target="_blank" rel="noopener noreferrer" className="flex items-center text-[#9a8a78] hover:text-white transition-colors">
@@ -65,8 +65,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm">
-          <p>© 2021 by Magic Wood Work. All rights reserved.</p>
-          <p className="text-xs text-gray-400 mt-1">Powered by Koreforge</p>
+          <p>© 2024 by Magic Wood Work. All rights reserved.</p>
+          <p className="text-xs text-gray-400 mt-1"></p>
         </div>
       </div>
     </footer>

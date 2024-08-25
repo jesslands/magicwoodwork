@@ -4,8 +4,8 @@ import ContactSection from '/components/contactanos';
 export default function About() {
     return (
         <main className="min-h-screen">
-            <section className=" w-full md:w-[90%] mx-auto container  px-4 py-16 ]">
-                <div className="  ">
+            <section className=" w-full md:w-[90%] lg:mt-24 mx-auto container px-4 py-16">
+                <div className="">
                     <div className="md:flex">
                         <div className="md:w-1/2 p-8">
                             <h1 className="text-5xl font-bold mb-4">About Us</h1>
@@ -20,7 +20,7 @@ export default function About() {
                         <div className="md:w-1/2 p-8 ">
                             <div className="relative h-full">
                                 <Image
-                                    src="/imagenes/logo2.png"
+                                    src="/img/logo.png"
                                     alt="Magic Wood Work Logo"
                                     layout="fill"
                                     objectFit="contain"

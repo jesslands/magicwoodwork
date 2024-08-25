@@ -12,11 +12,11 @@ export default function Footer() {
 ];
 
   return (
-    <footer className="bg-[#1c1c1c] text-white py-12">
+    <footer className="bg-[#1c1c1c] text-white py-12 shadow-lg">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center md:items-start">
-            <Image src="/imagenes/logo2.png" alt="Magic Wood Work" width={300} height={300} />
+            <Image src="/img/logo.png" alt="Magic Wood Work" width={300} height={300} />
           </div>
 
           <div className="text-center md:text-left">

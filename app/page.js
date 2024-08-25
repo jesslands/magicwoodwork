@@ -30,11 +30,11 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="relative px-4 lg:px-0">
+    <main className="relative bg-[#21201f] px-4 lg:px-0">
       <div className="relative h-screen overflow-hidden">
         <div
           ref={parallaxRef}
-          className="absolute inset-0 bg-black"
+          className="absolute inset-0 bg-[#21201f]"
           style={{ height: "120%", top: "-10%" }}
         >
           <Image

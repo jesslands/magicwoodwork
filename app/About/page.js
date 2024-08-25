@@ -3,7 +3,7 @@ import ContactSection from '/components/contactanos';
 
 export default function About() {
     return (
-        <main className="min-h-screen">
+        <main className="min-h-screen bg-[#21201f] ">
             <section className=" w-full md:w-[90%] lg:mt-24 mx-auto container px-4 py-16">
                 <div className="">
                     <div className="md:flex">

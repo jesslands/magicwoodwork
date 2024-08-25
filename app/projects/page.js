@@ -10,7 +10,7 @@ import ContactSection from '/components/contactanos';
 // Componente principal de la página de proyectos
 export default function Projects() {
     return (
-        <main className="min-h-screen">
+        <main className="min-h-screen bg-[#21201f]">
             {/* Componente para manejar el desplazamiento basado en el hash de la URL */}
             <ScrollHandler />
 
@@ -19,7 +19,7 @@ export default function Projects() {
                 <div className="container mx-auto pt-10">
                     <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
                         {/* Título */}
-                        <div className="md:col-span-1 bg-[#9a8a78] p-6 flex items-center justify-center mb-4 md:mb-0">
+                        <div className="md:col-span-1 bg-[#ac9172] p-6 flex items-center justify-center mb-4 md:mb-0">
                             <h2 className="text-xl md:text-2xl font-bold text-white text-center">Our Carpentry Projects</h2>
                         </div>
 

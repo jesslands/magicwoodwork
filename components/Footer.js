@@ -12,7 +12,7 @@ export default function Footer() {
 ];
 
   return (
-    <footer className="bg-[#1c1c1c] text-white py-12 shadow-lg">
+    <footer className="bg-[#21201f] text-white py-12 shadow-lg">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center md:items-start">

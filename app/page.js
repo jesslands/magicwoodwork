@@ -56,17 +56,14 @@ export default function Home() {
 
       <div className="h-screen">
         <section className="grid lg:grid-cols-2 mt-12 lg:w-[90%] mx-auto border border-1 border-[#9a8a78]">
-          <div className="border border-r-1 border-[#9a8a78]">
-            <Image
+          <div className="border h-[g0vh] border-r-1 border-[#9a8a78]">
+            <img
               src="/img/workers1.webp"
-              layout="responsive"
-              width={600}
-              height={800}
-              className="object-cover w-full h-full h-min-screen"
+              className="object-cover w-full h-[60vh] h-min-screen"
               alt="Workers performing carpentry"
             />
           </div>
-          <div className="">
+          <div className="h-[60vh]">
             <div className="text-white p-6 lg:p-32 lg:pt-24">
               <h2 className="text-xl lg:text-3xl font-bold mb-6 lg:mb-14">
                 Our Services
@@ -108,7 +105,7 @@ export default function Home() {
         </section>
 
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:w-[90%] mx-auto">
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52" >
             <div className="flex flex-col items-center xy-12">
               <IconHouse />
               <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
@@ -116,19 +113,19 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52">
             <IconWall />
             <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
               Expert Craftsmanship
             </span>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52">
             <IconPuzzle />
             <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
               Attention to Detail
             </span>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-80">
+          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52">
             <IconLaw />
             <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
               Customer Satisfaction

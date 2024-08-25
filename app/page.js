@@ -46,8 +46,9 @@ export default function Home() {
           />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white z-10">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-4">Magic Wood Work</h1>
-          <h2 className="text-xl lg:text-2xl">
+          <img src="/img/logo.png" width="400px" />
+          <h1 className="text-xl lg:text-6xl font-bold mb-4">Magic Wood Work</h1>
+          <h2 className="text-lg lg:text-2xl">
             Creating Your Dream Home with Our Expertise
           </h2>
         </div>
@@ -83,15 +84,15 @@ export default function Home() {
               </ul>
 
               <p className="lg:mb-6 font-thin lg:font-normal">
-                <span className="mr-2 lg:hidden">•</span>Custom Millwork
+                <span className="mr-2 ">•</span>Custom Millwork
               </p>
 
               <p className="lg:mb-6 font-thin lg:font-normal">
-                <span className="mr-2 lg:hidden">•</span>Custom High Quality
+                <span className="mr-2 ">•</span>Custom High Quality
                 Paint
               </p>
               <p className="lg:mb-12 mb-12 font-thin lg:font-normal">
-                <span className="mr-2 lg:hidden">•</span>Installation
+                <span className="mr-2 ">•</span>Installation
               </p>
 
               <div className="flex justify-center lg:flex-none lg:justify-normal">
@@ -168,8 +169,8 @@ export default function Home() {
       </div>
       <div className="mb-80 py-96"></div>
       <div className="mb-80 py-96"></div>
-      <div className="mb-80 py-96"></div>
-      <div className="py-72 lg:py-0"></div>
+      <div className="mb-80 py-96 lg:py-28"></div>
+      <div className="py-24 lg:py-0"></div>
 
       <Contactanos className="mt-12" />
 

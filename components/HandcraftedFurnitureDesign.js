@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const images = [
   { 
-    src: '/imagenes/closet/01.jpg', 
+    src: '/imagenes/closet/01.JPG', 
     alt: 'Kitchen cabinet and shelving',
     description: 'Custom-built kitchen cabinets with open shelving, providing both storage and display space. The warm wood tones contrast beautifully with the white cabinetry.'
   },

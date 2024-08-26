@@ -67,20 +67,30 @@ export default function Projects() {
           </div>
         </div>
       </section>
+      <hr className="border-t border-[#ac9172] my-8 w-full md:w-[90%] mx-auto" />
 
       {/* Componentes de proyectos individuales */}
       <div className="w-full px-4 md:w-[90%] mx-auto" id="kitchen">
         <CustomKitchenRemodel />
       </div>
+      <hr className="border-t border-[#ac9172] my-8 w-full md:w-[90%] mx-auto" />
+
+      
       <div className="w-full px-4 md:w-[90%] mx-auto" id="bathroom">
         <LuxuryBathroomRenovation />
       </div>
+      <hr className="border-t border-[#ac9172] my-8 w-full md:w-[90%] mx-auto" />
+
       <div className="w-full px-4 md:w-[90%] mx-auto" id="furniture">
         <HandcraftedFurnitureDesign />
       </div>
+      <hr className="border-t border-[#ac9172] my-8 w-full md:w-[90%] mx-auto" />
+
       <div className="w-full px-4 md:w-[90%] mx-auto" id="OfficesBusinesses">
         <OfficesBusinesses />
       </div>
+      <hr className="border-t border-[#ac9172] my-8 w-full md:w-[90%] mx-auto" />
+
 
       {/* Sección de contacto */}
       <div className="mt-8 md:mt-0">

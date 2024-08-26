@@ -55,8 +55,8 @@ export default function Home() {
       </div>
 
       <div className="h-screen">
-        <section className="grid lg:grid-cols-2 mt-12 lg:w-[90%] mx-auto border border-1 border-[#9a8a78]">
-          <div className="border h-[g0vh] border-r-1 border-[#9a8a78]">
+        <section className="grid lg:grid-cols-2 mt-12 lg:w-[90%] mx-auto border border-1 border-[#ac9172]">
+          <div className="border h-[g0vh] border-r-1 border-[#ac9172]">
             <img
               src="/img/workers1.webp"
               className="object-cover w-full h-[60vh] h-min-screen"
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="flex justify-center lg:flex-none lg:justify-normal">
                 <Link
                   href="/services"
-                  className="bg-[#9a8a78] text-[#292928] text-center py-3 px-8 font-light uppercase text-sm font-semibold"
+                  className="bg-[#ac9172] text-[#292928] text-center py-3 px-8 font-light uppercase text-sm font-semibold"
                 >
                   Learn More
                 </Link>
@@ -105,7 +105,7 @@ export default function Home() {
         </section>
 
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:w-[90%] mx-auto">
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52" >
+          <div className="border border-r-1 border-[#ac9172] flex flex-col justify-center items-center h-52" >
             <div className="flex flex-col items-center xy-12">
               <IconHouse />
               <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
@@ -113,19 +113,19 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52">
+          <div className="border border-r-1 border-[#ac9172] flex flex-col justify-center items-center h-52">
             <IconWall />
             <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
               Expert Craftsmanship
             </span>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52">
+          <div className="border border-r-1 border-[#ac9172] flex flex-col justify-center items-center h-52">
             <IconPuzzle />
             <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
               Attention to Detail
             </span>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] flex flex-col justify-center items-center h-52">
+          <div className="border border-r-1 border-[#ac9172] flex flex-col justify-center items-center h-52">
             <IconLaw />
             <span className="font-thin lg:font-light text-center mt-4 mx-12 lg:mx-0">
               Customer Satisfaction
@@ -133,15 +133,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-1 lg:grid-cols-2 mx-auto border border-r-1 border-[#9a8a78] lg:w-[90%]">
-          <div className="border border-r-1 border-[#9a8a78] p-6 py-12 lg:p-40">
+        <section className="grid grid-cols-1 lg:grid-cols-2 mx-auto border border-r-1 border-[#ac9172] lg:w-[90%]">
+          <div className="border border-r-1 border-[#ac9172] p-6 py-12 lg:p-40">
             <h2 className="font-bold text-4xl">About Us</h2>
             <h3 className="text-3xl mt-12 font-light text-[#9a8b79]">Magic Wood Work</h3>
             <p className="text-xl font-light text-justify mt-12">
               At Magic Wood Work, we are dedicated to providing top-notch carpentry and woodworking services to enhance the appearance of your home or commercial space. With our many years of experience, we take pride in our ability to turn your dreams into a reality through our exceptional craftsmanship. We value building trust with our clients and always deliver the best quality work. Let us help make your space a place you love to be in.
             </p>
           </div>
-          <div className="border border-r-1 border-[#9a8a78] h-[300px] lg:h-[800px] relative">
+          <div className="border border-r-1 border-[#ac9172] h-[300px] lg:h-[800px] relative">
             <Image
               src="/img/workers1.webp"
               layout="fill"

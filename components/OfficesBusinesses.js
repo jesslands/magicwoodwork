@@ -38,7 +38,7 @@ export default function OfficesBusinesses() {
         return (
           <section className="text-white py-8 sm:py-12">
             <div className="container mx-auto px-4">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#9a8a78]"> 
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#ac9172]"> 
               Offices  Businesses</h2>
               <p className="mb-6 sm:mb-8 text-gray-300 text-sm sm:text-base">
                       </p>
@@ -76,7 +76,7 @@ export default function OfficesBusinesses() {
                     </div>
                   </div>
                   <button 
-                    className="mt-4 bg-[#9a8a78] text-white px-4 py-2 rounded hover:bg-[#8a7a68] text-sm sm:text-base"
+                    className="mt-4 bg-[#ac9172] text-white px-4 py-2 rounded hover:bg-[#ac9172] text-sm sm:text-base"
                     onClick={() => setSelectedImage(null)}
                   >
                     Close

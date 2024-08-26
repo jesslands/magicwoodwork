@@ -42,7 +42,7 @@ export default function Nav() {
                 href={item.href}
                 className={`
                   ${scrolled ? "text-white" : "text-[#dad9d7]"}
-                  ${pathname === item.href ? "text-[#9a8a78]" : "hover:text-[#9a8a78]"}
+                  ${pathname === item.href ? "text-[#ac9172]" : "hover:text-[#ac9172]"}
                   transition-colors duration-300
                 `}
               >
@@ -54,7 +54,7 @@ export default function Nav() {
 
         {/* Mobile menu button */}
         <button 
-          className="sm:hidden bg-[#9a8a78] text-white px-3 py-1 rounded text-sm"
+          className="sm:hidden bg-[#ac9172] text-white px-3 py-1 rounded text-sm"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? 'Close' : 'Menu'}
@@ -76,7 +76,7 @@ export default function Nav() {
               href={item.href}
               className={`
                 block py-2 text-white
-                ${pathname === item.href ? "text-[#9a8a78]" : "hover:text-[#9a8a78]"}
+                ${pathname === item.href ? "text-[#ac9172]" : "hover:text-[#ac9172]"}
               `}
               onClick={() => setIsOpen(false)}
             >

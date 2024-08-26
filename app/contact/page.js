@@ -10,7 +10,7 @@ export default function Contact() {
                     <form className="space-y-4 sm:space-y-6">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                             <div>
-                                <label htmlFor="firstName" className="block text-[#9a8a78] text-sm mb-2">First Name</label>
+                                <label htmlFor="firstName" className="block text-[#ac9172] text-sm mb-2">First Name</label>
                                 <input
                                     type="text"
                                     id="firstName"
@@ -18,7 +18,7 @@ export default function Contact() {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="lastName" className="block text-[#9a8a78] text-sm mb-2">Last Name</label>
+                                <label htmlFor="lastName" className="block text-[#ac9172] text-sm mb-2">Last Name</label>
                                 <input
                                     type="text"
                                     id="lastName"
@@ -28,7 +28,7 @@ export default function Contact() {
                         </div>
 
                         <div>
-                            <label htmlFor="email" className="block text-[#9a8a78] text-sm mb-2">Email*</label>
+                            <label htmlFor="email" className="block text-[#ac9172] text-sm mb-2">Email*</label>
                             <input
                                 type="email"
                                 id="email"
@@ -39,7 +39,7 @@ export default function Contact() {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                             <div>
-                                <label htmlFor="phone" className="block text-[#9a8a78] text-sm mb-2">Phone</label>
+                                <label htmlFor="phone" className="block text-[#ac9172] text-sm mb-2">Phone</label>
                                 <input
                                     type="tel"
                                     id="phone"
@@ -47,7 +47,7 @@ export default function Contact() {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="address" className="block text-[#9a8a78] text-sm mb-2">Address</label>
+                                <label htmlFor="address" className="block text-[#ac9172] text-sm mb-2">Address</label>
                                 <input
                                     type="text"
                                     id="address"
@@ -57,7 +57,7 @@ export default function Contact() {
                         </div>
 
                         <div>
-                            <label htmlFor="message" className="block text-[#9a8a78] text-sm mb-2">Message</label>
+                            <label htmlFor="message" className="block text-[#ac9172] text-sm mb-2">Message</label>
                             <textarea
                                 id="message"
                                 rows="4"
@@ -67,7 +67,7 @@ export default function Contact() {
 
                         <button
                             type="submit"
-                            className="w-full bg-[#9a8a78] text-gray-900 py-3 rounded hover:bg-[#8a7a68] transition duration-300 font-semibold"
+                            className="w-full bg-[#ac9172] text-gray-900 py-3 rounded hover:bg-[#8a7a68] transition duration-300 font-semibold"
                         >
                             SUBMIT
                         </button>
@@ -81,7 +81,7 @@ export default function Contact() {
                         <div className="space-y-4 sm:space-y-6">
                             {['Painting', 'Kitchen Remodeling', 'Home Renovation'].map((service, index) => (
                                 <div key={index} className="flex items-start">
-                                    <svg className="w-6 h-6 sm:w-8 sm:h-8 mr-3 sm:mr-4 text-[#9a8a78] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="w-6 h-6 sm:w-8 sm:h-8 mr-3 sm:mr-4 text-[#ac9172] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                     <div>

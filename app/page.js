@@ -59,11 +59,11 @@ export default function Home() {
           <div className="border h-[g0vh] border-r-1 border-[#ac9172]">
             <img
               src="/img/workers1.webp"
-              className="object-cover w-full h-[60vh] h-min-screen"
+              className="object-cover w-full h-[80vh] h-min-screen"
               alt="Workers performing carpentry"
             />
           </div>
-          <div className="h-[60vh]">
+          <div className="h-[80vh]">
             <div className="text-white p-6 lg:p-32 lg:pt-24">
               <h2 className="text-xl lg:text-3xl font-bold mb-6 lg:mb-14">
                 Our Services

@@ -6,7 +6,7 @@ export default function Services() {
         <main className="px-4 md:px-0 pt-8">
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8 w-full md:w-[90%] mx-auto md:h-[75vh]">
                 <div className=" justify-center items-center  border-2 border-[#ac9172] bg-[#ac9172] w-full lg:col-span-1">
-                    <h2 className="p-4   text-4xl font-bold md:text-3xl lg:text-[35px]">Our Services </h2>
+                    <h2 className="p-4 text-4xl font-bold md:text-3xl lg:text-[35px] h-full flex items-center justify-center">Our Services</h2>
                 </div>
                 <div className="border-2 border-[#ac9172] p-4 lg:col-span-1">
                     <h3 className="text-2xl font-bold mb-2">Complete Carpentry Services</h3>
@@ -49,7 +49,7 @@ export default function Services() {
 
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8 w-full md:w-[90%] mx-auto md:h-[50vh]">
                 <div className="border-2 border-[#ac9172] p-4">
-                    <h3 className="p-4 text-2xl font-bold md:text-3xl lg:text-[35px]">Our Expertise</h3>
+                    <h3 className="p-4 text-2xl font-bold md:text-3xl lg:text-[35px] h-full flex items-center justify-center">Our Expertise</h3>
                 </div>
                 <div className="border-2 border-[#ac9172] p-4">
                     <h3 className="text-4xl font-bold mb-2">Custom Design</h3>

@@ -133,19 +133,17 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-1 lg:grid-cols-2 mx-auto border border-r-1 border-[#ac9172] lg:w-[90%]">
-          <div className="border border-r-1 border-[#ac9172] p-6 py-12 lg:p-40">
+        <section className="grid grid-cols-1 lg:grid-cols-2 mx-auto border border-r-1  border-[#ac9172] lg:w-[90%]">
+          <div className="border border-r-1 border-[#ac9172] p-6 lg:p-40">
             <h2 className="font-bold text-4xl">About Us</h2>
-            <h3 className="text-3xl mt-12 font-light text-[#9a8b79]">Magic Wood Work</h3>
-            <p className="text-xl font-light text-justify mt-12">
+            <h3 className="text-3xl my-4 font-light text-[#9a8b79]">Magic Wood Work</h3>
+            <p className="text-xl font-light text-justify">
               At Magic Wood Work, we are dedicated to providing top-notch carpentry and woodworking services to enhance the appearance of your home or commercial space. With our many years of experience, we take pride in our ability to turn your dreams into a reality through our exceptional craftsmanship. We value building trust with our clients and always deliver the best quality work. Let us help make your space a place you love to be in.
             </p>
           </div>
-          <div className="border border-r-1 border-[#ac9172] h-[300px] lg:h-[800px] relative">
-            <Image
+          <div className="border border-r-1 border-[#ac9172] h-[200px] lg:h-[670px] relative">
+            <img
               src="/img/workers1.webp"
-              layout="fill"
-              objectFit="cover"
               className="absolute object-cover inset-0 w-full h-full"
               alt="Carpentry workers in action"
             />

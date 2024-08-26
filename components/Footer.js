@@ -14,12 +14,12 @@ export default function Footer() {
   return (
     <footer className="bg-[#21201f] text-white py-12 shadow-lg">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="flex flex-col items-center md:items-start">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="flex flex-col col-span-2   items-center md:items-start">
             <Image src="/img/logo.png" alt="Magic Wood Work" width={300} height={300} />
           </div>
 
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left justify-center items-center">
             <h3 className="text-xl font-semibold mb-4 text-[#9a8a78]">Quick Links</h3>
             <nav className="space-y-2">
               {quickLinks.map((link) => (
@@ -32,7 +32,7 @@ export default function Footer() {
               ))}
             </nav>
           </div>
-
+          
           <div className="space-y-4">
             <h3 className="text-xl font-semibold mb-4 text-center md:text-left text-[#9a8a78]">Contact Us</h3>
             <div className="flex items-center justify-center md:justify-start">

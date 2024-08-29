@@ -75,7 +75,7 @@ const ContactSection = ({className}) => {
 
             {/* Iconos de contacto */}
             <div className="md:col-span-1 flex justify-center items-center space-x-4 md:space-x-0 md:space-y-4 md:flex-col p-4 rounded-lg shadow-lg">
-                <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener noreferrer" className="text-[#ac9172] hover:text-[#8a7a68] transition duration-300">
+                <a href="https://www.instagram.com/magic.woodwork" target="_blank" rel="noopener noreferrer" className="text-[#ac9172] hover:text-[#8a7a68] transition duration-300">
                     <FaInstagram className="w-8 h-8 md:w-12 md:h-12" />
                 </a>
                 <a href="mailto:tuemail@ejemplo.com" className="text-[#ac9172] hover:text-[#8a7a68] transition duration-300">

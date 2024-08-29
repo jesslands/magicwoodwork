@@ -31,7 +31,7 @@ export default function Nav() {
     }`}>
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <h3 className={`text-xl font-semibold ${scrolled ? "text-white" : "text-[#dad9d7]"}`}>
-          Magic Wood Work
+          Magic Wood Working LLC
         </h3>
         
         {/* Desktop menu */}

@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col col-span-2 justify-center items-center md:items-start">
-            <Image src="/img/logo.png" alt="Magic Wood Work" width={300} height={300} />
+            <Image src="/img/logof.png" alt="Magic Wood Work" width={300} height={300} />
           </div>
 
           <div className="text-center md:text-left justify-center items-center">
@@ -52,7 +52,7 @@ export default function Footer() {
                 <path d="M11 1a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V2a1 1 0 011-1h6zM5 0a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2H5z" />
                 <path d="M8 14a1 1 0 100-2 1 1 0 000 2z" />
               </svg>
-              <span>+1 551 799 4212</span>
+              <span>+1 862 282 6462 </span>
             </div>
             <div className="flex items-center justify-center md:justify-start mt-4">
               <a href="https://www.instagram.com/magicwoodwork" target="_blank" rel="noopener noreferrer" className="flex items-center text-[#9a8a78] hover:text-white transition-colors">
@@ -65,11 +65,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm">
-          <p>© 2024 by Magic Wood Work. All rights reserved.</p>
+          <p>© 2024 by Magic Wood Working LCC . All rights reserved.</p>
           <p className="text-xs text-gray-400 mt-1">
 
-            253*+
-            3
+           
           </p>
         </div>
       </div>

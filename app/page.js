@@ -46,9 +46,9 @@ export default function Home() {
           />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white z-10">
-          <img src="/img/logo.png" width="400px" />
+          <img src="/img/logof.png" width="400px" />
           <h1 className="text-xl lg:text-6xl font-bold mb-4">
-            Magic Wood Work
+          Magic Wood Working LLC
           </h1>
           <h2 className="text-lg lg:text-2xl">
             Creating Your Dream Home with Our Expertise

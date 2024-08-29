@@ -81,7 +81,7 @@ const ContactSection = ({className}) => {
                 <a href="mailto:tuemail@ejemplo.com" className="text-[#ac9172] hover:text-[#8a7a68] transition duration-300">
                     <FaEnvelope className="w-8 h-8 md:w-12 md:h-12" />
                 </a>
-                <a href="tel:+15517994212" className="text-[#ac9172] hover:text-[#8a7a68] transition duration-300">
+                <a href="tel:+1 862 282 6462" className="text-[#ac9172] hover:text-[#8a7a68] transition duration-300">
                     <FaPhone className="w-8 h-8 md:w-12 md:h-12" />
                 </a>
             </div>

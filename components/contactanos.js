@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
-
+import { sendEmail } from '@/actions/sendEmail';
 const ContactSection = ({className}) => {
     return (
         <section className={`w-full px-4 md:w-[90%] mx-auto flex flex-col md:grid md:grid-cols-3 gap-8 mt-8 max-w-6xl pb-20 ${className}`}>
@@ -24,53 +25,59 @@ const ContactSection = ({className}) => {
             
             {/* Formulario */}
             <div className="md:col-span-1 w-full max-w-md mx-auto p-4 rounded-lg shadow-lg">
-                <form className="space-y-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <input
-                            type="text"
-                            placeholder="First Name"
-                            className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
-                        />
-                        <input
-                            type="text"
-                            placeholder="Last Name"
-                            className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
-                        />
-                    </div>
+            <form className="space-y-4" action={sendEmail}>
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <input
+      name="firstName"
+      type="text"
+      placeholder="First Name"
+      className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
+    />
+    <input
+      name="lastName"
+      type="text"
+      placeholder="Last Name"
+      className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
+    />
+  </div>
 
-                    <input
-                        type="email"
-                        placeholder="Email*"
-                        required
-                        className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
-                    />
+  <input
+    name="email"
+    type="email"
+    placeholder="Email*"
+    required
+    className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
+  />
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <input
-                            type="tel"
-                            placeholder="Phone"
-                            className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
-                        />
-                        <input
-                            type="text"
-                            placeholder="Address"
-                            className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
-                        />
-                    </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <input
+      name="phone"
+      type="tel"
+      placeholder="Phone"
+      className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
+    />
+    <input
+      name="address"
+      type="text"
+      placeholder="Address"
+      className="w-full bg-transparent border-b border-gray-600 text-white focus:border-[#ac9172] focus:outline-none py-2"
+    />
+  </div>
 
-                    <textarea
-                        placeholder="Message"
-                        rows="4"
-                        className="w-full bg-transparent border border-gray-600 text-white focus:border-[#9a8a78] focus:outline-none p-2 rounded"
-                    ></textarea>
+  <textarea
+    name="message"
+    placeholder="Message"
+    rows="4"
+    className="w-full bg-transparent border border-gray-600 text-white focus:border-[#9a8a78] focus:outline-none p-2 rounded"
+  ></textarea>
 
-                    <button
-                        type="submit"
-                        className="w-full bg-[#ac9172] text-gray-900 py-3 rounded hover:bg-[#ac9172] transition duration-300 font-semibold"
-                    >
-                        SUBMIT
-                    </button>
-                </form>
+  <button
+    type="submit"
+    className="w-full bg-[#ac9172] text-gray-900 py-3 rounded hover:bg-[#ac9172] transition duration-300 font-semibold"
+  >
+    SUBMIT
+  </button>
+</form>
             </div>
 
             {/* Iconos de contacto */}

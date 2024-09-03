@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 flex flex-col items-center  justify-center px-4 text-center text-white z-10">
           <img  className= "mt-60"src="/img/logof.png" width="800px" />
-          <h1 className=" lg:text-4xl font-bold mb-4 ">
+          <h1 className=" lg:text-3xl font-bold mb-4 ">
           Magic Wood Working LLC
           </h1>
           <h2 className="text-center text-lg lg:text-sx">

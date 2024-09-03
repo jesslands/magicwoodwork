@@ -41,16 +41,16 @@ export default function Home() {
             src="/imagenes/cocinas/home2.jpg"
             layout="fill"
             objectFit="cover"
-            className="opacity-55"
+            className="opacity-90"
             alt="Banner image of a kitchen"
           />
         </div>
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white z-10">
-          <img src="/img/logof.png" width="400px" />
-          <h1 className="text-xl lg:text-6xl font-bold mb-4">
+        <div className="absolute inset-0 flex flex-col items-center  justify-center px-4 text-center text-white z-10">
+          <img  className= "mt-60"src="/img/logof.png" width="800px" />
+          <h1 className=" lg:text-4xl font-bold mb-4 ">
           Magic Wood Working LLC
           </h1>
-          <h2 className="text-lg lg:text-2xl">
+          <h2 className="text-center text-lg lg:text-sx">
             Creating Your Dream Home with Our Expertise
           </h2>
         </div>

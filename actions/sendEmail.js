@@ -15,7 +15,7 @@ export const actionEmail = async (formData) => {
   console.log(JSON.stringify(rawFormData));
 
   try {
-    const resp = await axios.post(`${PUBLIC_NEXT_PUBLIC_API_URL}/api/email`, rawFormData);
+    const resp = await axios.post(`${process.env.PUBLIC_NEXT_PUBLIC_API_URL}/api/email`, rawFormData);
     return resp.data;
   } catch (error) {
     return { error: error.message };  // Return plain object

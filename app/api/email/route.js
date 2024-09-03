@@ -5,7 +5,7 @@ export async function POST(request) {
   const { firstName, lastName, email, phone, address, message } = await request.json();
   // Configurar el transporter de nodemailer
   let transporter = nodemailer.createTransport({
-    host: "smtp-relay.brevo.com",
+    host: process.env.PUBLIC_NEXT_PUBLIC_SMTP_HOST,
     port: 587,
     secure: false,
 

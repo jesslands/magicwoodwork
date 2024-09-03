@@ -5,19 +5,20 @@ export async function POST(request) {
   const { firstName, lastName, email, phone, address, message } = await request.json();
   // Configurar el transporter de nodemailer
   let transporter = nodemailer.createTransport({
-    host: "smtp-relay.brevo.com",
+    host: process.env.PUBLIC_NEXT_PUBLIC_SMTP_HOST,
     port: 587,
     secure: false,
+
     auth: {
-      user: "7b5cd8001@smtp-brevo.com",
-      pass: "xOVB0LcM3dkUgwGJ",
+      user: process.env.PUBLIC_NEXT_PUBLIC_SMTP_USER,
+      pass: process.env.PUBLIC_NEXT_PUBLIC_SMTP_PASS
     },
   });
 
   // Configurar el correo
   let mailOptions = {
-    from: 'no-replay@magicwoodwork.us',
-    to: "magiccwoodwork@gmail.com",
+    from: process.env.PUBLIC_NEXT_PUBLIC_SMTP_FROM,
+    to: process.env.PUBLIC_NEXT_PUBLIC_SMTP_TO,
     subject: "Nuevo mensaje de contacto",
     text: `
       Nombre: ${firstName} ${lastName}

@@ -34,7 +34,7 @@ const [contacto, setContacto] = useState(false);
                <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-center mt-24">Thank you for contacting us</h2>
                <p className='text-center'>We will get in touch with you very soon</p>
                </div>
-            <form className={`${contacto? "hidden": ""} space-y-4 `} action={actionEmail}>
+            <form className={`${contacto? "hidden": ""} space-y-4 `} action={actionEmail} onSubmit={() => setContacto(true)}>
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <input
       name="firstName"

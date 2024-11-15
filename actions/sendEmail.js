@@ -22,7 +22,7 @@ const body = {
     },
     to: [
         {
-            email: 'Magiccwoodwork@gmail.com',
+            email: 'magiccwoodwork@gmail.com',
             name: 'Juan Recipient'
         }
     ],

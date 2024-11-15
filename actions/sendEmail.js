@@ -1,7 +1,7 @@
 'use server'
 
-import axios from 'axios';
-
+import curl from 'curl';
+const axios = require('axios');
 
 export const actionEmail = async (formData) => {
   const rawFormData = {
@@ -14,10 +14,40 @@ export const actionEmail = async (formData) => {
   };
   console.log(JSON.stringify(rawFormData));
 
-  try {
-    const resp = await axios.post(`${process.env.PUBLIC_NEXT_PUBLIC_API_URL}/api/email`, rawFormData);
-    return resp.data;
-  } catch (error) {
-    return { error: error.message };  // Return plain object
-  }
+
+const url = 'https://api.brevo.com/v3/smtp/email';
+const body = {
+    sender: {
+        name: 'contact',
+        email: 'no-replay@magicwoodwork.us'
+    },
+    to: [
+        {
+            email: 'Magiccwoodwork@gmail.com',
+            name: 'Juan Recipient'
+        }
+    ],
+    subject: 'New contact',
+    htmlContent: `<h1>Nuevo mensaje de contacto</h1>
+                  <p><strong>Nombre:</strong> ${rawFormData.firstName} ${rawFormData.lastName}</p>
+                  <p><strong>Email:</strong> ${rawFormData.email}</p>
+                  <p><strong>Teléfono:</strong> ${rawFormData.phone}</p>
+                  <p><strong>Dirección:</strong> ${rawFormData.address}</p>
+                  <p><strong>Mensaje:</strong> ${rawFormData.message}</p>`
+};
+
+axios.post(url, body, {
+    headers: {
+        'accept': 'application/json',
+        'api-key': process.env.NEXT_PUBLIC_EMAIL_API,
+        'content-type': 'application/json'
+    }
+})
+.then(response => {
+    console.log('Response:', response.data);
+})
+.catch(error => {
+    console.error('Error:', error.response ? error.response.data : error.message);
+});
+  
 };

@@ -1,6 +1,5 @@
 'use server'
 
-import curl from 'curl';
 const axios = require('axios');
 
 export const actionEmail = async (formData) => {

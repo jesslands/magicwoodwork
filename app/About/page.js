@@ -1,6 +1,15 @@
 import Image from "next/image";
 import ContactSection from '/components/contactanos';
 
+export const metadata = {
+    title: 'About Our Carpentry Expertise',
+    description: 'Learn about Magic Wood Work\'s commitment to quality carpentry, expert craftsmanship, and dedication to transforming spaces through woodworking.',
+    openGraph: {
+      title: 'About Magic Wood Work | Expert Carpentry Services',
+      description: 'Discover our commitment to quality carpentry and expert craftsmanship in New Jersey.',
+    }
+  };
+
 export default function About() {
     return (
         <main className="min-h-screen  ">

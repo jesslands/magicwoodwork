@@ -1,6 +1,15 @@
 import Image from "next/image";
 import ContactSection from '/components/contactanos';
 
+export const metadata = {
+    title: 'Professional Carpentry Services',
+    description: 'Explore our comprehensive carpentry services including custom kitchen cabinets, bathroom renovations, and expert woodworking solutions.',
+    openGraph: {
+      title: 'Professional Carpentry Services | Magic Wood Work',
+      description: 'Discover our expert carpentry services including custom kitchen cabinets, bathroom renovations, and professional woodworking solutions.',
+    }
+  };
+
 export default function Services() {
     return (
         <main className="px-4 md:px-0 pt-8">

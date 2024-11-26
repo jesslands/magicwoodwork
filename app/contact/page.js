@@ -1,5 +1,15 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: 'Contact Us for Expert Carpentry Services',
+    description: 'Get in touch with Magic Wood Work for professional carpentry services, custom woodworking, and home renovations in New Jersey.',
+    openGraph: {
+      title: 'Contact Magic Wood Work | Expert Carpentry Services',
+      description: 'Contact us for professional carpentry services, custom woodworking, and home renovations in New Jersey.',
+    }
+  };
+
+
 export default function Contact() {
     return (
         <main className="px-4 sm:px-6 lg:px-8 pt-8 min-h-screen">

@@ -7,6 +7,18 @@ import ProjectButton from "/components/ProjectButton";
 import ScrollHandler from "/components/ScrollHandler";
 import ContactSection from "/components/contactanos";
 
+
+export const metadata = {
+  title: 'Our Carpentry Projects Portfolio',
+  description: 'View our showcase of custom kitchen remodels, bathroom renovations, and handcrafted furniture projects. See our expert craftsmanship in action.',
+  openGraph: {
+    title: 'Carpentry Projects Portfolio | Magic Wood Work',
+    description: 'Explore our portfolio of custom kitchen remodels, bathroom renovations, and handcrafted furniture projects.',
+  }
+};
+
+
+
 // Componente principal de la página de proyectos
 export default function Projects() {
   return (

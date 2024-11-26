@@ -12,3 +12,4 @@ Sitemap: https://magicwoodwork.us/sitemap.xml`, {
     },
   })
 }
+

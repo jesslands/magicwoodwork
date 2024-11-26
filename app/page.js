@@ -10,6 +10,21 @@ import IconPuzzle from "@/components/icons/Puzzle";
 import IconWall from "@/components/icons/Wall";
 import Contactanos from "@/components/contactanos";
 
+
+export const metadata = {
+  title: 'Expert Carpentry & Woodworking Services in New Jersey',
+  description: 'Magic Wood Work offers premium carpentry services, custom kitchen remodeling, and expert woodworking solutions in New Jersey. Transform your space with our craftsmanship.',
+  alternates: {
+    canonical: 'https://magicwoodwork.us'
+  },
+  openGraph: {
+    title: 'Magic Wood Work - Premium Carpentry Services in New Jersey',
+    description: 'Transform your space with expert carpentry, custom kitchen remodeling, and professional woodworking services.',
+  }
+};
+
+
+
 export default function Home() {
   const parallaxRef = useRef(null);
 

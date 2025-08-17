@@ -45,7 +45,7 @@ export default function CustomKitchenRemodel() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {images.map((img, index) => (
                   <div key={index} className="relative h-48 sm:h-64 overflow-hidden cursor-pointer rounded-lg" onClick={() => setSelectedImage(img)}>
-                    <Image
+                    <img
                       src={img.src}
                       alt={img.alt}
                       layout="fill"
@@ -62,7 +62,7 @@ export default function CustomKitchenRemodel() {
                 <div className="bg-gray-800 p-4 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
                   <div className="flex flex-col sm:flex-row">
                     <div className="sm:w-1/2 relative h-48 sm:h-64 md:h-80">
-                      <Image
+                      <img
                         src={selectedImage.src}
                         alt={selectedImage.alt}
                         layout="fill"

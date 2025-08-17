@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col col-span-2 justify-center items-center md:items-start">
-            <Image src="/img/logof.png" alt="Magic Wood Work" width={300} height={300} />
+            <img src="/img/logof.png" alt="Magic Wood Work" width={300} height={300} />
           </div>
 
           <div className="text-center md:text-left justify-center items-center">

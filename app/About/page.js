@@ -30,7 +30,7 @@ export default function About() {
                         </div>
                         <div className="md:w-1/2 p-8 border border-1 border-[#ac9172]">
                             <div className="relative h-[200px] lg:h-full">
-                                <Image
+                                <img
                                     src="/img/logo.png"
                                     alt="Magic Wood Work Logo"
                                     layout="fill"

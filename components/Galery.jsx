@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { fetchProjects } from "@/services/directusService";
 
 const GalleryItem = ({ imageSrc, projectName }) => (
   <div className="relative border border-r-1 border-[#9a8a78] overflow-hidden group cursor-pointer">
@@ -15,34 +16,46 @@ const GalleryItem = ({ imageSrc, projectName }) => (
 );
 
 const Gallery = () => {
-  const projects = [
-    { id: 1, name: "The Jefferson's Lake House", image: "/imagenes/oficinas/IMG_0888.jpg" },
-    { id: 2, name: "Modern Kitchen Design", image: "/imagenes/oficinas/IMG_0889.jpg" },
-    { id: 3, name: "Spacious Living Room", image: "/imagenes/oficinas/IMG_3309.jpg" },
-    { id: 4, name: "Spacious Living Room", image: "/imagenes/oficinas/IMG_3311.jpg" },
-    { id: 5, name: "Spacious Living Room", image: "/imagenes/oficinas/01.jpg" }
-    // Añade más proyectos según sea necesario
-  ];
+  const [projects, setProjects] = useState([]);
+  const router = useRouter();
 
-
-  const router = useRouter()
+  useEffect(() => {
+    const loadProjects = async () => {
+      try {
+        const projectsData = await fetchProjects();
+        setProjects(projectsData);
+      } catch (error) {
+        console.error("Error loading projects:", error);
+      }
+    };
+    loadProjects();
+  }, []);
 
   return (
     <div className="w-[90%] mx-auto">
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4' onClick={()=> router.push("/projects")}>
-
-      <div className="grid grid-cols-2 gap-4">
-       
-       <GalleryItem key={projects[0].id} imageSrc={projects[0].image} projectName={projects[0].name} />
-       <GalleryItem key={projects[1].id} imageSrc={projects[1].image} projectName={projects[1].name} />
-       <GalleryItem  key={projects[2].id} imageSrc={projects[2].image} projectName={projects[2].name} />
-       <GalleryItem  key={projects[3].id} imageSrc={projects[3].image} projectName={projects[3].name} />
-       </div>
-
-       <div>
-       <GalleryItem  key={projects[4].id} imageSrc={projects[4].image} projectName={projects[4].name} />
-       </div>
-
+        {projects.length > 0 && (
+          <>
+            <div className="grid grid-cols-2 gap-4">
+              {projects.slice(0, 4).map(project => (
+                <GalleryItem 
+                  key={project.id} 
+                  imageSrc={`${process.env.NEXT_PUBLIC_BaseURL}/assets/${project.image}?download=`} 
+                  projectName={project.name} 
+                />
+              ))}
+            </div>
+            <div>
+              {projects[4] && (
+                <GalleryItem 
+                  key={projects[4].id} 
+                  imageSrc={`${process.env.NEXT_PUBLIC_BaseURL}/assets/${projects[4].image}?download=`} 
+                  projectName={projects[4].name} 
+                />
+              )}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

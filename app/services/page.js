@@ -26,7 +26,7 @@ export default function Services() {
                     <p className="text-justify text-gray-300">One of our specialties is custom kitchen cabinet design and installation. We understand that the kitchen is the heart of the home, and we work closely with our customers to create a design that fits their style and needs. Our team of experts will guide you through the process, from the initial consultation to the final installation, ensuring that you are satisfied with the end result.</p>
                 </div>
                 <div className="w-full h-64 md:h-full relative lg:col-span-1">
-                    <Image
+                    <img
                         src="/imagenes/servicio1.jpg"
                         alt="services"
                         layout="fill"
@@ -38,7 +38,7 @@ export default function Services() {
 
             <section className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-8 w-full md:w-[90%] mx-auto md:h-[75vh]">
                 <div className="w-full h-64 md:h-full relative lg:col-span-1">
-                    <Image
+                    <img
                         src="/imagenes/servicio2.jpg"
                         alt="services"
                         layout="fill"

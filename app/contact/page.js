@@ -103,7 +103,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className=" w-full h-48 sm:h-64 relative rounded-lg overflow-hidden">
-                        <Image 
+                        <img 
                             src="/imagenes/servicio2.jpg"
                             alt="Magic Wood Work Service"
                             layout="fill"
